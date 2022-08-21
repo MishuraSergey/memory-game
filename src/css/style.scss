@@ -106,12 +106,12 @@ body {
 			}
 			&.shown {
 				.fa-solid {
-					transition: opacity .3s .1s ease-out;
+					transition: opacity .1s ease-out;
 					opacity: 1;
 				}
 			}
 			.fa-solid {
-				transition: opacity .1s .1s ease-out;
+				transition: opacity .1s ease-out;
 				opacity: 0;
 				font-size: 48px;
 				position: relative;
