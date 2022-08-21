@@ -99,15 +99,12 @@ body {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			transition: transform 0.6s;
-			transform-style: preserve-3d;
 			&.locked {
 				.fa-solid {
 					color: green;
 				}
 			}
 			&.shown {
-				transform: rotateY(180deg);
 				.fa-solid {
 					transition: opacity .3s .1s ease-out;
 					opacity: 1;
